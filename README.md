@@ -31,7 +31,7 @@ vagrant ssh
 You can also use a common ssh client as PuTTY : http://www.putty.org
 
 ### Change VM's IP
-Editing Vagrantfile in line 30, you can change dchp mode by static ip address mode. Then you will be able to use any ssh client specifying a known ip address.
+Editing Vagrantfile in line 30, you can change dhcp mode by static ip address mode. Then you will be able to use any ssh client specifying a known ip address.
 
 ```
  # config.vm.network "private_network", ip: "192.168.33.10"
